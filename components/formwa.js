@@ -37,7 +37,7 @@ const FormWA = () => {
 
     const onClickSend = () => {
         if(phoneNumber === ""){
-            setErrorMessage("plase enter a phone number");
+            setErrorMessage("please enter a phone number");
             return;
         }
         
