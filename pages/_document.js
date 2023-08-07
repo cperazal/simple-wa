@@ -4,6 +4,10 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+          <meta name="keywords" content="Carlos, Peraza, Carlos Peraza, whatsapp, mensajeria, messages, message, mensajes, react, nextjs, pwa " />
+          <meta name="description" content="A simple web app for send whatsapp messages without add contacts" />
+          <meta property="og:image" itemProp="image" content="https://images.ctfassets.net/gwysva35bpgz/5qNABG8IMI7S487lNRMHVp/4e8155b5a5c9ab98cf58d663951173e5/simple-wa-256.png" />
+          <meta property="og:description" content="A simple web app for send whatsapp messages without add contacts" />
           <link rel="manifest" href="/manifest.json" />
           <link rel="icon" href="/favicon.ico" type="image/x-icon" />
           <link rel="apple-touch-icon" href="/icon.png"></link>
