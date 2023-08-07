@@ -1,6 +1,6 @@
 # Simple WA
 
-## A simple web app for send whatsapp messages without add contacts
+## A simple web app to send whatsapp messages without adding contacts
 
 #### Fast review 🚀
 
