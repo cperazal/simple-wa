@@ -1,7 +1,7 @@
 import Head from "next/head";
 import 'react-phone-input-2/lib/style.css'; 
 import PhoneInput from 'react-phone-input-2';
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 
 const FormWA = () => {
