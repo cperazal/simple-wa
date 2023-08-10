@@ -3,6 +3,7 @@ import 'react-phone-input-2/lib/style.css';
 import PhoneInput from 'react-phone-input-2';
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import ReactGA from 'react-ga4';
 
 const FormWA = () => {
 
@@ -36,6 +37,11 @@ const FormWA = () => {
       };
 
     const onClickSend = () => {
+        ReactGA.event({
+            category: 'Users',
+            action: 'Simplewa_btn_send_click',
+            label: 'Simplewa_btn_send_click',
+          })
         if(phoneNumber === ""){
             setErrorMessage("please enter a phone number");
             return;
