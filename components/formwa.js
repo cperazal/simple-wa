@@ -39,8 +39,8 @@ const FormWA = () => {
     const onClickSend = () => {
         ReactGA.event({
             category: 'Users',
-            action: 'Simplewa_btn_send_click',
-            label: 'Simplewa_btn_send_click',
+            action: 'simplewa__send_click',
+            label: 'simplewa_send_click',
           })
         if(phoneNumber === ""){
             setErrorMessage("please enter a phone number");
