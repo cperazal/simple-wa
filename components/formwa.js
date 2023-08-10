@@ -14,7 +14,7 @@ const FormWA = () => {
 
     useEffect(() => {
         fetchGeoLocation();
-    });
+    },[]);
 
     const fetchGeoLocation = async () => {
         try {
@@ -37,11 +37,13 @@ const FormWA = () => {
       };
 
     const onClickSend = () => {
+        console.log("ola k ase")
         ReactGA.event({
             category: 'Users',
             action: 'Simplewa_btn_send_click',
             label: 'Simplewa_btn_send_click',
           })
+          console.log("ola k ase 2")
         if(phoneNumber === ""){
             setErrorMessage("please enter a phone number");
             return;
