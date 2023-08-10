@@ -39,7 +39,7 @@ const FormWA = () => {
     const onClickSend = () => {
         ReactGA.event({
             category: 'Users',
-            action: 'simplewa__send_click',
+            action: 'simplewa_send_click',
             label: 'simplewa_send_click',
           })
         if(phoneNumber === ""){
